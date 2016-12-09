@@ -1,0 +1,28 @@
+---
+- name: ensure github.com is a known host
+  lineinfile:
+    dest: /root/.ssh/known_hosts
+    create: yes
+    state: present
+    line: "{{ lookup('pipe', 'ssh-keyscan -t rsa github.com') }}"
+    regexp: "^github\\.com"
+  become: true
+
+- name: Clone horizon
+  git: repo=https://github.com/openstack/horizon.git
+       dest={{dest}}
+       version={{branch}}
+       accept_hostkey=True
+       clone=yes
+       update=yes
+
+- name: Copy local settings example
+  command: cp {{dest}}/openstack_dashboard/local/local_settings.py.example {{dest}}/openstack_dashboard/local/local_settings.py chdir={{dest}}
+
+- name: Install dependencies
+  apt: name={{item}} update_cache=yes
+  with_items: "{{apt_package}}"
+  become: yes
+
+- name: Start Install
+  command: ./run_tests.sh -V chdir={{dest}}

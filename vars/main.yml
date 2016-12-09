@@ -1,0 +1,4 @@
+---
+apt_package: [git, python-dev, python-virtualenv, libssl-dev, libffi-dev, tree]
+dest: /home/karthik/temp2
+branch: stable/liberty

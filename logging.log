@@ -1,0 +1,56 @@
+2016-12-09 22:23:45,859 p=22359 u=karthik |  Using /home/karthik/ananth/ansible/playbooks/galaxy/horizonInstaller/ansible.cfg as config file
+2016-12-09 22:23:45,913 p=22359 u=karthik |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2016-12-09 22:23:45,950 p=22359 u=karthik |  ERROR! the role 'horizonInstaller' was not found in /home/karthik/ananth/ansible/playbooks/galaxy/horizonInstaller/tests/roles:/home/karthik/ananth/ansible/playbooks/galaxy/horizonInstaller/tests:/etc/ansible/roles
+
+The error appears to have been in '/home/karthik/ananth/ansible/playbooks/galaxy/horizonInstaller/tests/test.yml': line 5, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  roles:
+    - horizonInstaller
+      ^ here
+
+2016-12-09 22:25:58,047 p=23187 u=karthik |  Using /home/karthik/ananth/ansible/playbooks/galaxy/horizonInstaller/ansible.cfg as config file
+2016-12-09 22:25:58,054 p=23187 u=karthik |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2016-12-09 22:25:58,063 p=23187 u=karthik |  ERROR! the role 'horizonInstaller' was not found in /home/karthik/ananth/ansible/playbooks/galaxy/horizonInstaller/roles:/home/karthik/ananth/ansible/playbooks/galaxy/horizonInstaller:/etc/ansible/roles
+
+The error appears to have been in '/home/karthik/ananth/ansible/playbooks/galaxy/horizonInstaller/test.yml': line 7, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  roles:
+    - horizonInstaller
+      ^ here
+
+2016-12-09 22:27:19,792 p=23736 u=karthik |  Using /home/karthik/ananth/ansible/playbooks/galaxy/horizonInstaller/ansible.cfg as config file
+2016-12-09 22:27:19,797 p=23736 u=karthik |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2016-12-09 22:27:19,801 p=23736 u=karthik |  ERROR! the role 'horizonInstaller' was not found in /home/karthik/ananth/ansible/playbooks/galaxy/horizonInstaller/roles:/home/karthik/ananth/ansible/playbooks/galaxy/horizonInstaller:/etc/ansible/roles
+
+The error appears to have been in '/home/karthik/ananth/ansible/playbooks/galaxy/horizonInstaller/test.yml': line 7, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  roles:
+    - horizonInstaller
+      ^ here
+
+2016-12-09 22:27:35,822 p=23856 u=karthik |  Using /home/karthik/ananth/ansible/playbooks/galaxy/horizonInstaller/ansible.cfg as config file
+2016-12-09 22:27:35,827 p=23856 u=karthik |   [WARNING]: provided hosts list is empty, only localhost is available
+
+2016-12-09 22:27:35,833 p=23856 u=karthik |  ERROR! the role 'horizonInstaller' was not found in /home/karthik/ananth/ansible/playbooks/galaxy/horizonInstaller/roles:/home/karthik/ananth/ansible/playbooks/galaxy/horizonInstaller:/etc/ansible/roles
+
+The error appears to have been in '/home/karthik/ananth/ansible/playbooks/galaxy/horizonInstaller/test.yml': line 7, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  roles:
+     - horizonInstaller
+       ^ here
+
